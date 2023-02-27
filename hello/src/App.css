@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.imgHeader{
+  display: flex;
+  justify-content: space-between;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  background-color: #1E2433;
+  padding: 40px;
+  color: white;
+}
+
+#container h1{
+  font-size: 4rem;
+}
+#container p{
+  font-size: 1.5rem;
+}
+.button{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 10%;
+  justify-content: center;
+}
+
+#container-two{
+  display:flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.prueba{
+  background-color: aqua;
+}
+
